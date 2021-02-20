@@ -10,6 +10,31 @@
 		CE62494625DE2BD200202CDE /* HeroCommons.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE62493C25DE2BD100202CDE /* HeroCommons.framework */; };
 		CE62494B25DE2BD200202CDE /* HeroCommonsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE62494A25DE2BD200202CDE /* HeroCommonsTests.swift */; };
 		CE62494D25DE2BD200202CDE /* HeroCommons.h in Headers */ = {isa = PBXBuildFile; fileRef = CE62493F25DE2BD100202CDE /* HeroCommons.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE62495F25DE2F0C00202CDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE62495E25DE2F0C00202CDE /* AppDelegate.swift */; };
+		CE62496125DE2F0C00202CDE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE62496025DE2F0C00202CDE /* SceneDelegate.swift */; };
+		CE62496325DE2F0C00202CDE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE62496225DE2F0C00202CDE /* ViewController.swift */; };
+		CE62496625DE2F0C00202CDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE62496425DE2F0C00202CDE /* Main.storyboard */; };
+		CE62496825DE2F0E00202CDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE62496725DE2F0E00202CDE /* Assets.xcassets */; };
+		CE62496B25DE2F0E00202CDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE62496925DE2F0E00202CDE /* LaunchScreen.storyboard */; };
+		CE62497425DE30F600202CDE /* HeroCommons.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE62493C25DE2BD100202CDE /* HeroCommons.framework */; };
+		CE62497525DE30F600202CDE /* HeroCommons.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CE62493C25DE2BD100202CDE /* HeroCommons.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CE62498025DE328000202CDE /* NetworkServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE62497D25DE328000202CDE /* NetworkServiceProtocol.swift */; };
+		CE62498125DE328000202CDE /* NetworkRequestBuilderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE62497E25DE328000202CDE /* NetworkRequestBuilderProtocol.swift */; };
+		CE62498225DE328000202CDE /* NetworkRouteProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE62497F25DE328000202CDE /* NetworkRouteProtocol.swift */; };
+		CE62498A25DE329000202CDE /* NetworkMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE62498725DE328F00202CDE /* NetworkMethod.swift */; };
+		CE62498B25DE329000202CDE /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE62498825DE328F00202CDE /* NetworkError.swift */; };
+		CE62498C25DE329000202CDE /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE62498925DE329000202CDE /* NetworkService.swift */; };
+		CE62499025DE339A00202CDE /* NetworkServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE62498F25DE339A00202CDE /* NetworkServiceTests.swift */; };
+		CE62499425DE375B00202CDE /* MockURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE62499325DE375B00202CDE /* MockURLProtocol.swift */; };
+		CE62499E25DE428F00202CDE /* NetworkRequestBuilderProtocolMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE62499D25DE428F00202CDE /* NetworkRequestBuilderProtocolMock.swift */; };
+		CE6249A425DE42D000202CDE /* NetworkRouteProtocolMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6249A325DE42D000202CDE /* NetworkRouteProtocolMock.swift */; };
+		CE6249A825DF738800202CDE /* MockURLProtocol+Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6249A725DF738800202CDE /* MockURLProtocol+Factory.swift */; };
+		CE6249AD25DF84F500202CDE /* Bundle+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6249AC25DF84F500202CDE /* Bundle+Ext.swift */; };
+		CE6249B425E0711300202CDE /* Bundle+ExtTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6249B325E0711300202CDE /* Bundle+ExtTests.swift */; };
+		CE6249BB25E071EB00202CDE /* jsonTestFile.json in Resources */ = {isa = PBXBuildFile; fileRef = CE6249BA25E071EB00202CDE /* jsonTestFile.json */; };
+		CE6249C125E076F500202CDE /* MockURLProtocolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6249C025E076F500202CDE /* MockURLProtocolTests.swift */; };
+		CE6249C625E07DAF00202CDE /* FatalErrorUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6249C525E07DAF00202CDE /* FatalErrorUtil.swift */; };
+		CE6249CB25E0948700202CDE /* XCTestCase+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6249CA25E0948700202CDE /* XCTestCase+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -20,7 +45,28 @@
 			remoteGlobalIDString = CE62493B25DE2BD100202CDE;
 			remoteInfo = HeroCommons;
 		};
+		CE62497625DE30F600202CDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE62493325DE2BD100202CDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE62493B25DE2BD100202CDE;
+			remoteInfo = HeroCommons;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CE62497825DE30F600202CDE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CE62497525DE30F600202CDE /* HeroCommons.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		CE62493C25DE2BD100202CDE /* HeroCommons.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HeroCommons.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -29,6 +75,31 @@
 		CE62494525DE2BD200202CDE /* HeroCommonsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeroCommonsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE62494A25DE2BD200202CDE /* HeroCommonsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroCommonsTests.swift; sourceTree = "<group>"; };
 		CE62494C25DE2BD200202CDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE62495C25DE2F0C00202CDE /* HeroCommons_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeroCommons_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE62495E25DE2F0C00202CDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE62496025DE2F0C00202CDE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CE62496225DE2F0C00202CDE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE62496525DE2F0C00202CDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE62496725DE2F0E00202CDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE62496A25DE2F0E00202CDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE62496C25DE2F0E00202CDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE62497D25DE328000202CDE /* NetworkServiceProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkServiceProtocol.swift; sourceTree = "<group>"; };
+		CE62497E25DE328000202CDE /* NetworkRequestBuilderProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkRequestBuilderProtocol.swift; sourceTree = "<group>"; };
+		CE62497F25DE328000202CDE /* NetworkRouteProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkRouteProtocol.swift; sourceTree = "<group>"; };
+		CE62498725DE328F00202CDE /* NetworkMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkMethod.swift; sourceTree = "<group>"; };
+		CE62498825DE328F00202CDE /* NetworkError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		CE62498925DE329000202CDE /* NetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		CE62498F25DE339A00202CDE /* NetworkServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceTests.swift; sourceTree = "<group>"; };
+		CE62499325DE375B00202CDE /* MockURLProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockURLProtocol.swift; sourceTree = "<group>"; };
+		CE62499D25DE428F00202CDE /* NetworkRequestBuilderProtocolMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequestBuilderProtocolMock.swift; sourceTree = "<group>"; };
+		CE6249A325DE42D000202CDE /* NetworkRouteProtocolMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRouteProtocolMock.swift; sourceTree = "<group>"; };
+		CE6249A725DF738800202CDE /* MockURLProtocol+Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MockURLProtocol+Factory.swift"; sourceTree = "<group>"; };
+		CE6249AC25DF84F500202CDE /* Bundle+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Ext.swift"; sourceTree = "<group>"; };
+		CE6249B325E0711300202CDE /* Bundle+ExtTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+ExtTests.swift"; sourceTree = "<group>"; };
+		CE6249BA25E071EB00202CDE /* jsonTestFile.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = jsonTestFile.json; sourceTree = "<group>"; };
+		CE6249C025E076F500202CDE /* MockURLProtocolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockURLProtocolTests.swift; sourceTree = "<group>"; };
+		CE6249C525E07DAF00202CDE /* FatalErrorUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FatalErrorUtil.swift; sourceTree = "<group>"; };
+		CE6249CA25E0948700202CDE /* XCTestCase+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +118,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CE62495925DE2F0C00202CDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE62497425DE30F600202CDE /* HeroCommons.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,7 +134,9 @@
 			children = (
 				CE62493E25DE2BD100202CDE /* HeroCommons */,
 				CE62494925DE2BD200202CDE /* HeroCommonsTests */,
+				CE62495D25DE2F0C00202CDE /* HeroCommons_Example */,
 				CE62493D25DE2BD100202CDE /* Products */,
+				CE62497325DE30F600202CDE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +145,7 @@
 			children = (
 				CE62493C25DE2BD100202CDE /* HeroCommons.framework */,
 				CE62494525DE2BD200202CDE /* HeroCommonsTests.xctest */,
+				CE62495C25DE2F0C00202CDE /* HeroCommons_Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -71,6 +153,9 @@
 		CE62493E25DE2BD100202CDE /* HeroCommons */ = {
 			isa = PBXGroup;
 			children = (
+				CE6249C425E07C4C00202CDE /* FatalError */,
+				CE6249AB25DF84E600202CDE /* Extensions */,
+				CE62497B25DE317E00202CDE /* Networking */,
 				CE62493F25DE2BD100202CDE /* HeroCommons.h */,
 				CE62494025DE2BD100202CDE /* Info.plist */,
 			);
@@ -82,8 +167,115 @@
 			children = (
 				CE62494A25DE2BD200202CDE /* HeroCommonsTests.swift */,
 				CE62494C25DE2BD200202CDE /* Info.plist */,
+				CE62499725DE421500202CDE /* Networking */,
+				CE6249B225E070E500202CDE /* Extensions */,
 			);
 			path = HeroCommonsTests;
+			sourceTree = "<group>";
+		};
+		CE62495D25DE2F0C00202CDE /* HeroCommons_Example */ = {
+			isa = PBXGroup;
+			children = (
+				CE62495E25DE2F0C00202CDE /* AppDelegate.swift */,
+				CE62496025DE2F0C00202CDE /* SceneDelegate.swift */,
+				CE62496225DE2F0C00202CDE /* ViewController.swift */,
+				CE62496425DE2F0C00202CDE /* Main.storyboard */,
+				CE62496725DE2F0E00202CDE /* Assets.xcassets */,
+				CE62496925DE2F0E00202CDE /* LaunchScreen.storyboard */,
+				CE62496C25DE2F0E00202CDE /* Info.plist */,
+			);
+			path = HeroCommons_Example;
+			sourceTree = "<group>";
+		};
+		CE62497325DE30F600202CDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE62497B25DE317E00202CDE /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				CE62498825DE328F00202CDE /* NetworkError.swift */,
+				CE62498725DE328F00202CDE /* NetworkMethod.swift */,
+				CE62498925DE329000202CDE /* NetworkService.swift */,
+				CE62497C25DE318E00202CDE /* Protocols */,
+				CE62499325DE375B00202CDE /* MockURLProtocol.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		CE62497C25DE318E00202CDE /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				CE62497E25DE328000202CDE /* NetworkRequestBuilderProtocol.swift */,
+				CE62497F25DE328000202CDE /* NetworkRouteProtocol.swift */,
+				CE62497D25DE328000202CDE /* NetworkServiceProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		CE62499725DE421500202CDE /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				CE62499C25DE424D00202CDE /* Mocks */,
+				CE62498F25DE339A00202CDE /* NetworkServiceTests.swift */,
+				CE6249C025E076F500202CDE /* MockURLProtocolTests.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		CE62499C25DE424D00202CDE /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				CE62499D25DE428F00202CDE /* NetworkRequestBuilderProtocolMock.swift */,
+				CE6249A325DE42D000202CDE /* NetworkRouteProtocolMock.swift */,
+				CE6249A725DF738800202CDE /* MockURLProtocol+Factory.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		CE6249AB25DF84E600202CDE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CE6249AC25DF84F500202CDE /* Bundle+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CE6249B225E070E500202CDE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CE6249C925E0947000202CDE /* Extensions */,
+				CE6249B925E071A700202CDE /* Mock */,
+				CE6249B325E0711300202CDE /* Bundle+ExtTests.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CE6249B925E071A700202CDE /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				CE6249BA25E071EB00202CDE /* jsonTestFile.json */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		CE6249C425E07C4C00202CDE /* FatalError */ = {
+			isa = PBXGroup;
+			children = (
+				CE6249C525E07DAF00202CDE /* FatalErrorUtil.swift */,
+			);
+			path = FatalError;
+			sourceTree = "<group>";
+		};
+		CE6249C925E0947000202CDE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CE6249CA25E0948700202CDE /* XCTestCase+Ext.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +328,25 @@
 			productReference = CE62494525DE2BD200202CDE /* HeroCommonsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		CE62495B25DE2F0C00202CDE /* HeroCommons_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE62496D25DE2F0E00202CDE /* Build configuration list for PBXNativeTarget "HeroCommons_Example" */;
+			buildPhases = (
+				CE62495825DE2F0C00202CDE /* Sources */,
+				CE62495925DE2F0C00202CDE /* Frameworks */,
+				CE62495A25DE2F0C00202CDE /* Resources */,
+				CE62497825DE30F600202CDE /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE62497725DE30F600202CDE /* PBXTargetDependency */,
+			);
+			name = HeroCommons_Example;
+			productName = HeroCommons_Example;
+			productReference = CE62495C25DE2F0C00202CDE /* HeroCommons_Example.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -147,8 +358,12 @@
 				TargetAttributes = {
 					CE62493B25DE2BD100202CDE = {
 						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
 					};
 					CE62494425DE2BD200202CDE = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					CE62495B25DE2F0C00202CDE = {
 						CreatedOnToolsVersion = 12.4;
 					};
 				};
@@ -168,6 +383,7 @@
 			targets = (
 				CE62493B25DE2BD100202CDE /* HeroCommons */,
 				CE62494425DE2BD200202CDE /* HeroCommonsTests */,
+				CE62495B25DE2F0C00202CDE /* HeroCommons_Example */,
 			);
 		};
 /* End PBXProject section */
@@ -184,6 +400,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE6249BB25E071EB00202CDE /* jsonTestFile.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE62495A25DE2F0C00202CDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE62496B25DE2F0E00202CDE /* LaunchScreen.storyboard in Resources */,
+				CE62496825DE2F0E00202CDE /* Assets.xcassets in Resources */,
+				CE62496625DE2F0C00202CDE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +421,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE62499425DE375B00202CDE /* MockURLProtocol.swift in Sources */,
+				CE6249AD25DF84F500202CDE /* Bundle+Ext.swift in Sources */,
+				CE62498125DE328000202CDE /* NetworkRequestBuilderProtocol.swift in Sources */,
+				CE6249C625E07DAF00202CDE /* FatalErrorUtil.swift in Sources */,
+				CE62498A25DE329000202CDE /* NetworkMethod.swift in Sources */,
+				CE62498225DE328000202CDE /* NetworkRouteProtocol.swift in Sources */,
+				CE62498025DE328000202CDE /* NetworkServiceProtocol.swift in Sources */,
+				CE62498C25DE329000202CDE /* NetworkService.swift in Sources */,
+				CE62498B25DE329000202CDE /* NetworkError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,7 +437,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE62499025DE339A00202CDE /* NetworkServiceTests.swift in Sources */,
+				CE6249C125E076F500202CDE /* MockURLProtocolTests.swift in Sources */,
+				CE6249CB25E0948700202CDE /* XCTestCase+Ext.swift in Sources */,
+				CE6249B425E0711300202CDE /* Bundle+ExtTests.swift in Sources */,
 				CE62494B25DE2BD200202CDE /* HeroCommonsTests.swift in Sources */,
+				CE6249A825DF738800202CDE /* MockURLProtocol+Factory.swift in Sources */,
+				CE6249A425DE42D000202CDE /* NetworkRouteProtocolMock.swift in Sources */,
+				CE62499E25DE428F00202CDE /* NetworkRequestBuilderProtocolMock.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE62495825DE2F0C00202CDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE62496325DE2F0C00202CDE /* ViewController.swift in Sources */,
+				CE62495F25DE2F0C00202CDE /* AppDelegate.swift in Sources */,
+				CE62496125DE2F0C00202CDE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,7 +466,31 @@
 			target = CE62493B25DE2BD100202CDE /* HeroCommons */;
 			targetProxy = CE62494725DE2BD200202CDE /* PBXContainerItemProxy */;
 		};
+		CE62497725DE30F600202CDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE62493B25DE2BD100202CDE /* HeroCommons */;
+			targetProxy = CE62497625DE30F600202CDE /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE62496425DE2F0C00202CDE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE62496525DE2F0C00202CDE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE62496925DE2F0E00202CDE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE62496A25DE2F0E00202CDE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		CE62494E25DE2BD200202CDE /* Debug */ = {
@@ -341,6 +618,7 @@
 		CE62495125DE2BD200202CDE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = S6AFWAWALQ;
@@ -357,6 +635,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.horacio.guzman.HeroCommons;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -365,6 +644,7 @@
 		CE62495225DE2BD200202CDE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = S6AFWAWALQ;
@@ -389,6 +669,7 @@
 		CE62495425DE2BD200202CDE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S6AFWAWALQ;
 				INFOPLIST_FILE = HeroCommonsTests/Info.plist;
@@ -407,6 +688,7 @@
 		CE62495525DE2BD200202CDE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S6AFWAWALQ;
 				INFOPLIST_FILE = HeroCommonsTests/Info.plist;
@@ -416,6 +698,46 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.horacio.guzman.HeroCommonsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE62496E25DE2F0E00202CDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S6AFWAWALQ;
+				INFOPLIST_FILE = HeroCommons_Example/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.horacio.guzman.HeroCommons-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE62496F25DE2F0E00202CDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S6AFWAWALQ;
+				INFOPLIST_FILE = HeroCommons_Example/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.horacio.guzman.HeroCommons-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -448,6 +770,15 @@
 			buildConfigurations = (
 				CE62495425DE2BD200202CDE /* Debug */,
 				CE62495525DE2BD200202CDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE62496D25DE2F0E00202CDE /* Build configuration list for PBXNativeTarget "HeroCommons_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE62496E25DE2F0E00202CDE /* Debug */,
+				CE62496F25DE2F0E00202CDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
