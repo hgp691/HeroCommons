@@ -1,0 +1,19 @@
+{
+  "commitish" : "2d1b6caee828337e7d1ae45849f5c71dc1966073",
+  "iOS" : [
+    {
+      "swiftToolchainVersion" : "5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)",
+      "hash" : "2a0844c00351fb15b771e8c199a9a8f64a79773c6cef76011a87529706168ee6",
+      "name" : "HeroCommons",
+      "container" : "HeroCommons.xcframework",
+      "identifier" : "ios-arm64"
+    },
+    {
+      "swiftToolchainVersion" : "5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)",
+      "hash" : "c9cfbffbd6b0da511da0128a5ac709f32637313c1d5025e2eb8bcbc1b1e0be96",
+      "name" : "HeroCommons",
+      "container" : "HeroCommons.xcframework",
+      "identifier" : "ios-arm64_x86_64-simulator"
+    }
+  ]
+}

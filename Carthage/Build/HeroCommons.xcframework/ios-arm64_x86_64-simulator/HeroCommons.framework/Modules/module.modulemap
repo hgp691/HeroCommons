@@ -1,0 +1,11 @@
+framework module HeroCommons {
+  umbrella header "HeroCommons.h"
+
+  export *
+  module * { export * }
+}
+
+module HeroCommons.Swift {
+    header "HeroCommons-Swift.h"
+    requires objc
+}
